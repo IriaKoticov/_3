@@ -26,7 +26,6 @@ std::vector<int> boxwithrandom() {
     return tmp;
 }
 
-
 int main(){
     std::vector<std::string> name = get_name("config");
     for (std::string i: name ){
